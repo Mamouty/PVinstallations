@@ -238,11 +238,15 @@ h3{
     left: 0;
 }
 
-.layer p{
-    color: white;
+.layer-bottom-text {
+    width: 100%;
     background-color: rgba(5, 185, 125, 0.315);
     position: absolute;
     bottom: 25px;
+}
+
+.layer p{
+    color: white;
 }
 
 /* .layer:hover {
@@ -409,6 +413,7 @@ h3{
 }
 
 .about-col p {
+    font-size: 20px;
     padding: 15 0;
 }
 
