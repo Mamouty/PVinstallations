@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHMEnergy</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+
+    <header>
+    <!-- Nav Bar -->
+        <nav>
+            <a href="index.html"><img src="images/sun.png"></a>
+            <div class="nav-links">
+                <i class="fa-solid fa-xmark icon" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="about.html">À-PROPOS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars icon" onclick="showMenu()"></i>
+        </nav>
+    <!-- Title -->
+        <div  class="text-box">
+            <h1>Travaux d'Énergie Renouvelable</h1>
+            <p>Réalisation de projet d'électrification grace à de l'énergie respectueuse de l'environnement, qu'elle soit hybrid ou off-grid.</p>
+            <a href="" class="main-btn">Contactez nous pour plus d'informations</a>
+        </div>
+
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+        <h1>Nos Services</h1>
+        <p>Nous vous proposons différents services.</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Formations</h3>
+                <p>Une formation complète sur l'installations des panneaux solaires photovoltaïques.<br> En fin de formation, le stagiaire serait capable de dimensionner un système photovoltaïques et de mener à bien l'installation.  </p>
+            </div>
+            <div class="service-col">
+                <h3>Installations Solaires</h3>
+                <p>Notre équipe d'experts sera en charge de  </p>
+            </div>
+            <div class="service-col">
+                <h3>Chauffe-eau Solaire</h3>
+                <p>Un chauffe-eau qui fonctionne grace à l'énergie solaire. Très économe et saint pour l'environnement puis ce qu'il n'utilise ni électricité ou gas pour chauffer votre eau.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travaux -->
+    <section class="travaux">
+        <h1>Travaux</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="slideshow-container">
+            
+                <div class="travaux-col fade" style="margin-top: 0%;">
+                    <div class="numbertext">1/3</div>
+                    <img src="images/RooftopSolarPanels.jpg" alt="Installation de panneaux solaires sur toit.">
+                    <div class="layer">
+                        <h3>Installation pour different type de toitures.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            
+            
+                <div class="travaux-col fade" style="margin-top: 0%;">
+                    <div class="numbertext">2/3</div>
+                    <img src="images/SolarPanelsInstallation.jpg" alt="Deux personnes installant des panneaux solaires sur toit.">
+                    <div class="layer">
+                        <h3>En collaboration avec des entreprises spécialisés dans le domaine.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            
+            
+                <div class="travaux-col fade" style="margin-top: 0%;">
+                    <div class="numbertext">3/3</div>
+                    <img src="images/WaterSolarPump.jpg" alt="Pompage avec énergie solaire ">
+                    <div class="layer">
+                        <h3>De l'énergie renouvelable pour l'agriculture.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            
+        </div>
+        <br>
+        
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- The dots/circles for current image -->
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="cta">
+        <h1>Nous repondérons à vos besoins d'énergie renouvelable <br> ou que vous soyez dans le territoire nationale.</h1>
+        <a href="" class="main-btn">CONTACTEZ NOUS</a>
+    </section>
+
+    <!-- Footer --> 
+
+    <footer>
+        <h4>À-PROPOS</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <br> minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="footer-contact">
+            <a href="https://www.linkedin.com/in/dahman-solair-22b37b70/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+    
+
+    <script src="index.js" charset="utf-8"></script> 
+</body>
+</html>
