@@ -1,5 +1,4 @@
-
-/* ------Nav bar------ */
+/* ------Navbar------ */
 
 const navLinks = document.querySelector(".nav-links");
 
@@ -12,7 +11,7 @@ function hideMenu(){
 };
 
 
- /* ------Slidshow------ */
+ /* ------Slideshow------ */
 
 let slideIndex = 1;
 showSlides(slideIndex);

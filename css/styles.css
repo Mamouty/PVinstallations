@@ -199,7 +199,7 @@ h3{
     }
 }
 
-/* Traveaux */
+/* Travaux */
 
 .travaux{
     width: 80%;
@@ -248,10 +248,6 @@ h3{
 .layer p{
     color: white;
 }
-
-/* .layer:hover {
-    background: rgba(5, 185, 125, 0.315);
-} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -367,9 +363,9 @@ h3{
     color:#0072b1;
 }
 
-.fa-whatsapp:hover {
-    color:#25D366;
-}
+.fa-envelope.red:hover {
+    color: #cb4154;
+} 
 
 .footer-contact a {
     color: rgb(39, 39, 39);
