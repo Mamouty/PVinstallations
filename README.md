@@ -4,11 +4,11 @@
 This project is a simple showcase website. It has three pages; index.html, about.html and contact.html. These three can be accessed respectively via the navbar links, ACCUEIL, A-PROPOS and CONTACT. As you may notice the texts of the website are in french.
 
 ### Screenshot
-![Screenshot of the first section of website](ScreenshotDHMEnergy.png)
+![Screenshot of the first section of website](./images/ScreenshotDHMEnergy.png)
 
 ### Links
 
-- Live Site URL:
+- Live Site URL: [DHMEnergy](https://vocal-malasada-5b7bd9.netlify.app)
 
 ## My process
 
